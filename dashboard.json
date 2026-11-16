@@ -1,8 +1,8 @@
 {
-  "version": "20261116-04",
-  "url": "https://cdn.jsdelivr.net/gh/1083808255/dashboard-ota@main/dashboard-20261116-04.tar.gz",
-  "sha256": "792fb6a31dd6146b82e14bfccd6dd941bd453ea4239011059aa2a9ec4bc57859",
-  "size": 115905,
-  "notes": "仪表盘 OTA 更新：新增仪表盘在线更新与回滚",
+  "version": "20261116-05",
+  "url": "https://cdn.jsdelivr.net/gh/1083808255/dashboard-ota@main/dashboard-20261116-05.tar.gz",
+  "sha256": "91a45225aa19e4965e7278031fbb2dc792da52650bf6f69bef2b80f9da4b43cb",
+  "size": 117470,
+  "notes": "电台信息页新增仪表盘更新入口，进入页面自动检查更新",
   "endpoints": ["basic","calibration","configs","lastheard","lhclear","live","log","ota","page","ports","services","status","system","tg","xlxhosts"]
 }
