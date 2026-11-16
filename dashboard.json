@@ -1,9 +1,9 @@
 {
-    "version":  "V0.573",
-    "url":  "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/dashboard-V0.573.tar.gz",
-    "sha256":  "14a0f00eb12a1b410cbea8e958a5218409190be0eca3514afdeaad98d3f058b1",
-    "size":  116308,
-    "notes":  "电台信息页“已是最新/有更新”显示在更新按钮后面；系统信息页移除仪表盘更新卡片",
+    "version":  "V0.574",
+    "url":  "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/dashboard-V0.574.tar.gz",
+    "sha256":  "8402f0d0dee76525351e6a32b09b1fc64eb4364d0f8e07dfc9567b996573ae1a",
+    "size":  116384,
+    "notes":  "电台信息页“有更新/已是最新”显示在更新按钮后面；系统信息页移除仪表盘更新卡片；更新清单改用 ghproxy+raw 并加时间戳避开缓存",
     "endpoints":  [
                       "basic",
                       "calibration",
