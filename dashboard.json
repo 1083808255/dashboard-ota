@@ -1,9 +1,9 @@
 {
-    "version":  "V0.571",
-    "url":  "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/dashboard-V0.571.tar.gz",
-    "sha256":  "7c9120cb5720d789bd701b71b50f1b80edcac5828863c0f6ca75fb115f4fd9e8",
-    "size":  117726,
-    "notes":  "仪表盘 OTA 版本号改为 V0.571；隐藏更新源设置；当前版本只显示 OTA 版本；新版本信息显示在更新按钮下方",
+    "version":  "V0.572",
+    "url":  "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/dashboard-V0.572.tar.gz",
+    "sha256":  "d397f1a82a80e77d8c0fbb656b4a3f9ca1741d037b71c8f7f2fbb7b0174ca855",
+    "size":  117611,
+    "notes":  "电台信息页只提示有更新；更新弹窗按条目分行显示更新说明；移除当前版本显示；更新按钮合并到关闭按钮一行",
     "endpoints":  [
                       "basic",
                       "calibration",
