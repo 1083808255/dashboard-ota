@@ -1,8 +1,24 @@
 {
-  "version": "20261116-05",
-  "url": "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/dashboard-20261116-05.tar.gz",
-  "sha256": "91a45225aa19e4965e7278031fbb2dc792da52650bf6f69bef2b80f9da4b43cb",
-  "size": 117470,
-  "notes": "电台信息页新增仪表盘更新入口，进入页面自动检查更新",
-  "endpoints": ["basic","calibration","configs","lastheard","lhclear","live","log","ota","page","ports","services","status","system","tg","xlxhosts"]
+    "version":  "V0.571",
+    "url":  "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/dashboard-V0.571.tar.gz",
+    "sha256":  "7c9120cb5720d789bd701b71b50f1b80edcac5828863c0f6ca75fb115f4fd9e8",
+    "size":  117726,
+    "notes":  "仪表盘 OTA 版本号改为 V0.571；隐藏更新源设置；当前版本只显示 OTA 版本；新版本信息显示在更新按钮下方",
+    "endpoints":  [
+                      "basic",
+                      "calibration",
+                      "configs",
+                      "lastheard",
+                      "lhclear",
+                      "live",
+                      "log",
+                      "ota",
+                      "page",
+                      "ports",
+                      "services",
+                      "status",
+                      "system",
+                      "tg",
+                      "xlxhosts"
+                  ]
 }
