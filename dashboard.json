@@ -1,1 +1,8 @@
-{`n  "version": "20261116-02",`n  "url": "dashboard-20261116-02.tar.gz",`n  "sha256": "6e1a016bb3025d5017c3fcde28fc87333806d38ea57444261d2d9c0909c5137d",`n  "size": 115773,`n  "notes": "仪表盘 OTA 更新：新增仪表盘在线更新与回滚",`n  "endpoints": ["basic","calibration","configs","lastheard","lhclear","live","log","ota","page","ports","services","status","system","tg","xlxhosts"]`n}
+{
+  "version": "20261116-02",
+  "url": "dashboard-20261116-02.tar.gz",
+  "sha256": "6e1a016bb3025d5017c3fcde28fc87333806d38ea57444261d2d9c0909c5137d",
+  "size": 115773,
+  "notes": "仪表盘 OTA 更新：新增仪表盘在线更新与回滚",
+  "endpoints": ["basic","calibration","configs","lastheard","lhclear","live","log","ota","page","ports","services","status","system","tg","xlxhosts"]
+}
