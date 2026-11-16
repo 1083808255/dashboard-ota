@@ -1,9 +1,9 @@
 {
-    "version":  "V0.577",
-    "url":  "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/dashboard-V0.577.tar.gz",
-    "sha256":  "5d2af85b6afc364f5223a100dc7d3e28d96b3d65ddd4dcb5a6aaef909e82ae43",
-    "size":  117265,
-    "notes":  "热点板固件版本合并显示在类型后面，并在版本前加 v",
+    "version":  "V0.578",
+    "url":  "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/dashboard-V0.578.tar.gz",
+    "sha256":  "12c9e0119a912c98009485da7a2a010a746832185b166ca6d542cdc6a5d11fb1",
+    "size":  117406,
+    "notes":  "电脑版电台信息页：呼号与 DMR ID 合并为一行，收发频率合并为一行",
     "endpoints":  [
                       "basic",
                       "calibration",
