@@ -1,9 +1,9 @@
 {
-    "version":  "V0.582",
-    "url":  "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/dashboard-V0.582.tar.gz",
-    "sha256":  "aa570182f784d041087a2bc6a3ef5d1d72377067c0f303e941d5eb398448fae8",
-    "size":  118086,
-    "notes":  "OTA 默认更新源切换到 Gitee（国内访问更稳定），GitHub 保留为备用源",
+    "version":  "V0.583",
+    "url":  "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/dashboard-V0.583.tar.gz",
+    "sha256":  "439af3502a7bbc86b4ad22d7c3b542dbb278025369078bc788cf9bb269f01c00",
+    "size":  118230,
+    "notes":  "基础配置连接设置新增“隐私（SelfOnly）”选项，可选公共/隐私",
     "endpoints":  [
                       "basic",
                       "calibration",
