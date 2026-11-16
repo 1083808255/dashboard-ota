@@ -1,9 +1,9 @@
 {
-    "version":  "V0.581",
-    "url":  "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/dashboard-V0.581.tar.gz",
-    "sha256":  "71738917b7add99dedd71f7c64a31e33048be94b2feb4485e5edda44483702ec",
-    "size":  118126,
-    "notes":  "修复更新检查在清单缓存到期后接口 502 的问题（ucode 函数前向引用）",
+    "version":  "V0.582",
+    "url":  "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/dashboard-V0.582.tar.gz",
+    "sha256":  "aa570182f784d041087a2bc6a3ef5d1d72377067c0f303e941d5eb398448fae8",
+    "size":  118086,
+    "notes":  "OTA 默认更新源切换到 Gitee（国内访问更稳定），GitHub 保留为备用源",
     "endpoints":  [
                       "basic",
                       "calibration",
