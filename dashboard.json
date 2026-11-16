@@ -1,9 +1,9 @@
 {
-    "version":  "V0.578",
-    "url":  "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/dashboard-V0.578.tar.gz",
-    "sha256":  "12c9e0119a912c98009485da7a2a010a746832185b166ca6d542cdc6a5d11fb1",
-    "size":  117406,
-    "notes":  "电脑版电台信息页：呼号与 DMR ID 合并为一行，收发频率合并为一行",
+    "version":  "V0.579",
+    "url":  "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/dashboard-V0.579.tar.gz",
+    "sha256":  "0d337afc28c93bd39574fa543693a658f3cb02888abf51d0a61ef11fbfedf243",
+    "size":  117941,
+    "notes":  "安装前校验新接口语法；安装后自动自检（页面完整、接口可用、版本正确），失败自动回滚上一版本",
     "endpoints":  [
                       "basic",
                       "calibration",
