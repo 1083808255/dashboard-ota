@@ -1,9 +1,9 @@
 {
-    "version":  "V0.579",
-    "url":  "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/dashboard-V0.579.tar.gz",
-    "sha256":  "0d337afc28c93bd39574fa543693a658f3cb02888abf51d0a61ef11fbfedf243",
-    "size":  117941,
-    "notes":  "安装前校验新接口语法；安装后自动自检（页面完整、接口可用、版本正确），失败自动回滚上一版本",
+    "version":  "V0.580",
+    "url":  "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/dashboard-V0.580.tar.gz",
+    "sha256":  "052c927e9113f9fcd1d7037457e45f3de71ef0d8c7a1646a0831ff7073a31ee2",
+    "size":  118055,
+    "notes":  "XLX 网络在未启用时默认折叠；折叠的 DMR/XLX 卡片高度进一步降低",
     "endpoints":  [
                       "basic",
                       "calibration",
