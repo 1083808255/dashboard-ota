@@ -1,9 +1,9 @@
 {
-    "version":  "V0.588",
-    "url":  "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/dashboard-V0.588.tar.gz",
-    "sha256":  "d626e04a14d070c1305a2262cb8adb4f83f1c32add37b2ef06a98a4708725957",
-    "size":  118326,
-    "notes":  "加大手机版与电脑版卡片标题与设置项之间的间距",
+    "version":  "V0.589",
+    "url":  "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/dashboard-V0.589.tar.gz",
+    "sha256":  "54907e85b4068ef1a81393b573fbd27a144638c90d0f5ebbf78f87a584e2bb1d",
+    "size":  118359,
+    "notes":  "手机版卡片标题居中显示",
     "endpoints":  [
                       "basic",
                       "calibration",
