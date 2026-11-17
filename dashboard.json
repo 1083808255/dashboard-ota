@@ -1,8 +1,8 @@
 {
     "version":  "V0.605",
     "url":  "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/dashboard-V0.605.tar.gz",
-    "sha256":  "d521c0fc794202494509a62ef2d377386bdad02eec3c0270ea43611b1f695873",
-    "size":  125971,
+    "sha256":  "3b44d9d8906b2ffb415a58c461e7616286ae52d327dbc15fe749489cda5e2943",
+    "size":  126184,
     "notes":  "新增整机固件 OTA（全量升级）",
     "endpoints":  [
                       "basic",

@@ -2,6 +2,7 @@
     "version":  2026111701,
     "versionName":  "2026-11-17-01",
     "board":  "hilink,hlk-7628n",
+    "target":  "ramips/mt76x8",
     "url":  "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/fw/openwrt-ramips-mt76x8-hilink_hlk-7628n-squashfs-sysupgrade.bin",
     "sha256":  "1c59f59974fb14b6cb0336add9828e9aaa858e2c644c5c4d3ead9110ebeed1bc",
     "size":  9306917,
