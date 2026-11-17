@@ -1,9 +1,9 @@
 {
-    "version":  "V0.602",
-    "url":  "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/dashboard-V0.602.tar.gz",
-    "sha256":  "3a3f2d31702e20b94dab20f18ff31c2f1031624a3ffc34dc126752e2d4bf5c25",
-    "size":  121775,
-    "notes":  "自动校准频率外扩范围改为 ±1000Hz（分辨率 25Hz）",
+    "version":  "V0.603",
+    "url":  "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/dashboard-V0.603.tar.gz",
+    "sha256":  "b58d848a45958e9b2580c6cb457e9b09624460f0efb06678341ce986ecef783f",
+    "size":  121795,
+    "notes":  "自动校准目标值放宽为误码率 2% 以内",
     "endpoints":  [
                       "basic",
                       "calibration",
