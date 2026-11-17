@@ -1,9 +1,9 @@
 {
-    "version":  "V0.591",
-    "url":  "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/dashboard-V0.591.tar.gz",
-    "sha256":  "4758def6a0ea36387d94ce5ce27438d71f7dbf1a4e9e8f48b4e03605600617a9",
-    "size":  118652,
-    "notes":  "修复跨天后服务器状态误报断开：读取最近两份网关日志并保留上次状态",
+    "version":  "V0.592",
+    "url":  "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/dashboard-V0.592.tar.gz",
+    "sha256":  "ee72a054b6e080b7a086a317c4c7b6b10d9bf3d98cf4bb73046c75b4bca98c1a",
+    "size":  118643,
+    "notes":  "通联信息改为自适应轮询：有通联 0.7 秒，空闲 1 秒",
     "endpoints":  [
                       "basic",
                       "calibration",
