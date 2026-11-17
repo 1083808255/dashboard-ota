@@ -1,9 +1,9 @@
 {
-    "version":  "V0.592",
-    "url":  "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/dashboard-V0.592.tar.gz",
-    "sha256":  "ee72a054b6e080b7a086a317c4c7b6b10d9bf3d98cf4bb73046c75b4bca98c1a",
-    "size":  118643,
-    "notes":  "通联信息改为自适应轮询：有通联 0.7 秒，空闲 1 秒",
+    "version":  "V0.593",
+    "url":  "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/dashboard-V0.593.tar.gz",
+    "sha256":  "a961c94c4c2faee3deb47d80fb5c230ebef2b7b63edf146f82ce188865ac382b",
+    "size":  118638,
+    "notes":  "恢复通联信息 0.7 秒轮询，保证实时显示",
     "endpoints":  [
                       "basic",
                       "calibration",
