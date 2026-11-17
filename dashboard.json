@@ -1,9 +1,9 @@
 {
-    "version":  "V0.589",
-    "url":  "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/dashboard-V0.589.tar.gz",
-    "sha256":  "54907e85b4068ef1a81393b573fbd27a144638c90d0f5ebbf78f87a584e2bb1d",
-    "size":  118359,
-    "notes":  "手机版卡片标题居中显示",
+    "version":  "V0.590",
+    "url":  "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/dashboard-V0.590.tar.gz",
+    "sha256":  "c63f1f937a5de4196a07201556ce79cc99c4a9a8f1e5953c55974580fe2b24bf",
+    "size":  118413,
+    "notes":  "手机版卡片标题居中，折叠时标题居左",
     "endpoints":  [
                       "basic",
                       "calibration",
