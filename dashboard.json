@@ -1,9 +1,9 @@
 {
-    "version":  "V0.594",
-    "url":  "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/dashboard-V0.594.tar.gz",
-    "sha256":  "5816c755ff7ef721a107535beea8ee5e034080849ed7ece2447ee90fc6935f4a",
-    "size":  118639,
-    "notes":  "服务器状态轮询改为 10 秒；新增 zram、关闭未启用网关（固件侧）",
+    "version":  "V0.595",
+    "url":  "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/dashboard-V0.595.tar.gz",
+    "sha256":  "4506da37c2bb7d50eb28779643809646655786066436fd2d46f78a7d68cf5b8e",
+    "size":  118638,
+    "notes":  "系统卡片磁盘改名为“根分区”，与实际统计口径一致",
     "endpoints":  [
                       "basic",
                       "calibration",
