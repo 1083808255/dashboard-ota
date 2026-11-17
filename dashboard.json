@@ -1,9 +1,9 @@
 {
-    "version":  "V0.601",
-    "url":  "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/dashboard-V0.601.tar.gz",
-    "sha256":  "71d62538dab99b12987a7be903d24338e663e11c3232928cfe527ba30b77e1f5",
-    "size":  121780,
-    "notes":  "自动校准改为定向+25Hz二分（上限±500Hz）；菜单精简；状态接口降耗；未运行时显示未启用",
+    "version":  "V0.602",
+    "url":  "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/dashboard-V0.602.tar.gz",
+    "sha256":  "3a3f2d31702e20b94dab20f18ff31c2f1031624a3ffc34dc126752e2d4bf5c25",
+    "size":  121775,
+    "notes":  "自动校准频率外扩范围改为 ±1000Hz（分辨率 25Hz）",
     "endpoints":  [
                       "basic",
                       "calibration",
