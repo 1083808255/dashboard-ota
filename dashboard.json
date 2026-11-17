@@ -1,8 +1,8 @@
 {
     "version":  "V0.604",
     "url":  "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/dashboard-V0.604.tar.gz",
-    "sha256":  "e7a6ef7eec59b16d92b65369a034f67c9a4a4200a5ab28b1cb15beb3822c5fed",
-    "size":  122563,
+    "sha256":  "8c60b51c748c4baf8a28f74fe38c93b3c493f9dc73197963637cffaa9ede80cd",
+    "size":  122646,
     "notes":  "通联记录时间与定位图标位置优化",
     "endpoints":  [
                       "basic",
