@@ -1,9 +1,9 @@
 {
-    "version":  "V0.596",
-    "url":  "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/dashboard-V0.596.tar.gz",
-    "sha256":  "cc57512dfa193b88605e17161c5c3e698769486b1ce4c2e00878334f89c024ff",
-    "size":  119775,
-    "notes":  "系统信息显示整盘容量与物理内存",
+    "version":  "V0.597",
+    "url":  "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/dashboard-V0.597.tar.gz",
+    "sha256":  "1db89d9b8d837cf6b787ca68956c58e8c2f10c2b833cb28f6d957251ce7657ae",
+    "size":  119898,
+    "notes":  "手机版 DMR 网络服务器地址按内容自适应宽度",
     "endpoints":  [
                       "basic",
                       "calibration",
