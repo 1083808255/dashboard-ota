@@ -1,9 +1,9 @@
 {
-    "version":  "V0.605",
-    "url":  "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/dashboard-V0.605.tar.gz",
-    "sha256":  "fb69e343748057d3d57fd1c82f843b84d2f159da518aa8c2a617c44e56431d40",
-    "size":  126196,
-    "notes":  "新增整机固件 OTA（全量升级）",
+    "version":  "V0.606",
+    "url":  "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/dashboard-V0.606.tar.gz",
+    "sha256":  "be1fb1096b7d68a228e1e70013181d1343a2b96e54d1458f4e3f430138a685f8",
+    "size":  126206,
+    "notes":  "整机固件更新源迁移到 Gitee 新仓库",
     "endpoints":  [
                       "basic",
                       "calibration",
