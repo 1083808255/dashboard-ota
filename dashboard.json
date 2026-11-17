@@ -1,9 +1,9 @@
 {
-    "version":  "V0.583",
-    "url":  "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/dashboard-V0.583.tar.gz",
-    "sha256":  "439af3502a7bbc86b4ad22d7c3b542dbb278025369078bc788cf9bb269f01c00",
-    "size":  118230,
-    "notes":  "基础配置连接设置新增“隐私（SelfOnly）”选项，可选公共/隐私",
+    "version":  "V0.584",
+    "url":  "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/dashboard-V0.584.tar.gz",
+    "sha256":  "0bdb1ae54ee22a7c594f898959e206779989fd81e360ce7a7d5d00fda59f0a5a",
+    "size":  118235,
+    "notes":  "隐私选项标题改为“隐私模式”，选择框加宽",
     "endpoints":  [
                       "basic",
                       "calibration",
