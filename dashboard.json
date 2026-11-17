@@ -1,9 +1,9 @@
 {
-    "version":  "V0.598",
-    "url":  "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/dashboard-V0.598.tar.gz",
-    "sha256":  "7c233776ddb9e3507b3dc80adac2bb22fd14d979f709352658013efe4c88b5f7",
-    "size":  120018,
-    "notes":  "内存与磁盘使用量改为已用/可用",
+    "version":  "V0.599",
+    "url":  "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/dashboard-V0.599.tar.gz",
+    "sha256":  "03d6c79526be46aecafd220113601d0cf067df99e63ef1490de0a8d458a6a872",
+    "size":  120004,
+    "notes":  "内存仪表改为显示空闲内存 MemFree",
     "endpoints":  [
                       "basic",
                       "calibration",
