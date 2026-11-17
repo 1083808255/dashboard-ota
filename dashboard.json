@@ -1,9 +1,9 @@
 {
-    "version":  "V0.584",
-    "url":  "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/dashboard-V0.584.tar.gz",
-    "sha256":  "0bdb1ae54ee22a7c594f898959e206779989fd81e360ce7a7d5d00fda59f0a5a",
-    "size":  118235,
-    "notes":  "隐私选项标题改为“隐私模式”，选择框加宽",
+    "version":  "V0.585",
+    "url":  "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/dashboard-V0.585.tar.gz",
+    "sha256":  "d8fd4b2482c2e2041e2a42c2dbece2e2a0ede0a2f58ce16fe0da23a5a567af2f",
+    "size":  118242,
+    "notes":  "修复隐私模式在手机版显示不全/换行的问题",
     "endpoints":  [
                       "basic",
                       "calibration",
