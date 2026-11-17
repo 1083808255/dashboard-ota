@@ -1,9 +1,9 @@
 {
     "version":  "V0.600",
     "url":  "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/dashboard-V0.600.tar.gz",
-    "sha256":  "fe0b0cd28d63997c4a4ca8ca3de83d8a49506282e8f1b22dac2e29e4bd8b8ccc",
-    "size":  120214,
-    "notes":  "手机版连接设置隐私模式左移 25px",
+    "sha256":  "24382d7e43387f3a25b56b1689696bdfb4ef8c7c88a27c93054620a8ea408a01",
+    "size":  121583,
+    "notes":  "系统信息页新增 4G 模块信号状态",
     "endpoints":  [
                       "basic",
                       "calibration",
