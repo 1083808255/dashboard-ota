@@ -1,9 +1,9 @@
 {
-    "version":  "V0.587",
-    "url":  "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/dashboard-V0.587.tar.gz",
-    "sha256":  "8c00f6b72d369ec8502ecccd4e2a7ebcd6d9e01a27af99c954f32421b4423cb1",
+    "version":  "V0.588",
+    "url":  "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/dashboard-V0.588.tar.gz",
+    "sha256":  "d626e04a14d070c1305a2262cb8adb4f83f1c32add37b2ef06a98a4708725957",
     "size":  118326,
-    "notes":  "手机版信标时间隐藏英文并缩短输入框",
+    "notes":  "加大手机版与电脑版卡片标题与设置项之间的间距",
     "endpoints":  [
                       "basic",
                       "calibration",
