@@ -1,9 +1,9 @@
 {
-    "version":  "V0.593",
-    "url":  "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/dashboard-V0.593.tar.gz",
-    "sha256":  "a961c94c4c2faee3deb47d80fb5c230ebef2b7b63edf146f82ce188865ac382b",
-    "size":  118638,
-    "notes":  "恢复通联信息 0.7 秒轮询，保证实时显示",
+    "version":  "V0.594",
+    "url":  "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/dashboard-V0.594.tar.gz",
+    "sha256":  "5816c755ff7ef721a107535beea8ee5e034080849ed7ece2447ee90fc6935f4a",
+    "size":  118639,
+    "notes":  "服务器状态轮询改为 10 秒；新增 zram、关闭未启用网关（固件侧）",
     "endpoints":  [
                       "basic",
                       "calibration",
