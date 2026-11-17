@@ -1,9 +1,9 @@
 {
-    "version":  "V0.595",
-    "url":  "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/dashboard-V0.595.tar.gz",
-    "sha256":  "4506da37c2bb7d50eb28779643809646655786066436fd2d46f78a7d68cf5b8e",
-    "size":  118638,
-    "notes":  "系统卡片磁盘改名为“根分区”，与实际统计口径一致",
+    "version":  "V0.596",
+    "url":  "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/dashboard-V0.596.tar.gz",
+    "sha256":  "cc57512dfa193b88605e17161c5c3e698769486b1ce4c2e00878334f89c024ff",
+    "size":  119775,
+    "notes":  "系统信息显示整盘容量与物理内存",
     "endpoints":  [
                       "basic",
                       "calibration",
