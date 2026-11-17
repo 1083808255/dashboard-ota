@@ -1,9 +1,9 @@
 {
-    "version":  "V0.600",
-    "url":  "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/dashboard-V0.600.tar.gz",
-    "sha256":  "24382d7e43387f3a25b56b1689696bdfb4ef8c7c88a27c93054620a8ea408a01",
-    "size":  121583,
-    "notes":  "系统信息页新增 4G 模块信号状态",
+    "version":  "V0.601",
+    "url":  "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/dashboard-V0.601.tar.gz",
+    "sha256":  "71d62538dab99b12987a7be903d24338e663e11c3232928cfe527ba30b77e1f5",
+    "size":  121780,
+    "notes":  "自动校准改为定向+25Hz二分（上限±500Hz）；菜单精简；状态接口降耗；未运行时显示未启用",
     "endpoints":  [
                       "basic",
                       "calibration",
