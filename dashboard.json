@@ -1,9 +1,9 @@
 {
-    "version":  "V0.613",
-    "url":  "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/dashboard-V0.613.tar.gz",
-    "sha256":  "94089bdaabb823a4740184caa4efb6ffa5b7a8984525b74a172f2daefd9fb1d7",
-    "size":  127443,
-    "notes":  "手机版顶栏随页面滚动，不再固定置顶",
+    "version":  "V0.614",
+    "url":  "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/dashboard-V0.614.tar.gz",
+    "sha256":  "e9121915c007c42f75063f38e08a60c32a54a4655787e7328fe025e07637b3fe",
+    "size":  127588,
+    "notes":  "静态组设备ID包含ESSID，修复多台设备共用同一热点",
     "endpoints":  [
                       "basic",
                       "calibration",
