@@ -1,8 +1,8 @@
 {
-    "version":  "V0.616",
-    "url":  "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/dashboard-V0.616.tar.gz",
-    "sha256":  "97bd2017c80e051534a2af742b849a11c7fa5fd84a8c2f685789536f69a44e6a",
-    "size":  128417,
-    "notes":  "API 配置的 DMR ID 改为下拉选择（46 开头 ID + ESSID，单个自动选中）",
+    "version":  "V0.617",
+    "url":  "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/dashboard-V0.617.tar.gz",
+    "sha256":  "711813915eab00ab00dd6d01fae005829e5cc1c6bafe1f361c89069f0c69795e",
+    "size":  128390,
+    "notes":  "API 配置 ID 选择：46 开头 ID 单个自动选中，多个待选，无 46 留空",
     "endpoints":  ["basic","calibration","configs","fw","lastheard","lhclear","live","log","luci","ota","page","ports","services","status","system","tg","xlxhosts"]
 }
