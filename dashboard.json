@@ -1,9 +1,9 @@
 {
-    "version":  "V0.619",
-    "url":  "https://raw.giteeusercontent.com/xyinmaster/dashboard-ota/raw/main/dashboard-V0.619.tar.gz",
-    "sha256":  "b24a7f856b879ae1f39cf97773dceb6559d852e49ea33a242b4a426d63dafa5b",
-    "size":  128687,
-    "notes":  "修复手机版顶部 BOM 空白与顶栏布局；修复 DMR 网关自定义服务器名称选择串台、预置服务器选中后不生效",
+    "version":  "V0.620",
+    "url":  "https://raw.giteeusercontent.com/xyinmaster/dashboard-ota/raw/main/dashboard-V0.620.tar.gz",
+    "sha256":  "7da82bfda4cc2682e940aed57ce01c2dcf1816d1815ab69efad3ff90363cca25",
+    "size":  129889,
+    "notes":  "新增诊断导出（设备型号+时分秒命名、敏感项脱敏）；手机版顶栏下移10px、系统操作按钮单行等高；延续修复手机版顶部空白与 DMR 服务器选择问题",
     "endpoints":  [
                       "basic",
                       "calibration",
