@@ -3,7 +3,7 @@
     "versionName":  "2026-11-17-01",
     "board":  "xiaomi,mi-router-3g",
     "target":  "ramips/mt7621",
-    "url":  "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/fw/openwrt-ramips-mt7621-xiaomi_mi-router-3g-squashfs-sysupgrade.bin",
+    "url":  "https://gitee.com/xyinmaster/dashboard-ota/raw/main/fw/openwrt-ramips-mt7621-xiaomi_mi-router-3g-squashfs-sysupgrade.bin",
     "sha256":  "17a2176be95c41829b1a1d1265a7fb3482800c24da28fa97d83d7bd586072b82",
     "size":  9964666,
     "notes":  "R3G 首版整机固件；升级后可在仪表盘再检查一次网页更新"

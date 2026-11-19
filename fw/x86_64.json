@@ -2,7 +2,7 @@
     "version":  2026111701,
     "versionName":  "2026-11-17-01",
     "target":  "x86/64",
-    "url":  "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/fw/openwrt-x86-64-generic-squashfs-combined.img.gz",
+    "url":  "https://gitee.com/xyinmaster/dashboard-ota/raw/main/fw/openwrt-x86-64-generic-squashfs-combined.img.gz",
     "sha256":  "148a264e32014b76cb61f6d130b48fa7842cb37fab809a8351c0abb031793287",
     "size":  15526158,
     "notes":  "x86/64 首版整机固件（BIOS 启动，保留配置）"
