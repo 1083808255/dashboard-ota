@@ -1,10 +1,11 @@
 {
-    "version":  "V0.620",
-    "url":  "https://raw.giteeusercontent.com/xyinmaster/dashboard-ota/raw/main/dashboard-V0.620.tar.gz",
-    "sha256":  "7da82bfda4cc2682e940aed57ce01c2dcf1816d1815ab69efad3ff90363cca25",
-    "size":  129889,
-    "notes":  "新增诊断导出（设备型号+时分秒命名、敏感项脱敏）；手机版顶栏下移10px、系统操作按钮单行等高；延续修复手机版顶部空白与 DMR 服务器选择问题",
+    "version":  "V0.621",
+    "url":  "https://raw.giteeusercontent.com/xyinmaster/dashboard-ota/raw/main/dashboard-V0.621.tar.gz",
+    "sha256":  "2db9cd7bd95f2b2b2e9fde237505ea9fca3ee89d1b295b462373cce3594a0b91",
+    "size":  133434,
+    "notes":  "菜单密码门：PC/手机统一解锁，跨刷新保持，无操作10分钟自动锁定，菜单末尾注销按钮；新增 auth 端点",
     "endpoints":  [
+                      "auth",
                       "basic",
                       "calibration",
                       "configs",
