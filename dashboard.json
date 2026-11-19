@@ -1,8 +1,26 @@
 {
-    "version":  "V0.618",
-    "url":  "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/dashboard-V0.618.tar.gz",
-    "sha256":  "781decec61c9ad0a79c02fd92c600cc48eed804c91bcac8c72a68b44d7d36ad3",
-    "size":  128622,
-    "notes":  "唯一 46 开头 DMR ID 自动应用并保存，无需进入 API 配置",
-    "endpoints":  ["basic","calibration","configs","fw","lastheard","lhclear","live","log","luci","ota","page","ports","services","status","system","tg","xlxhosts"]
+    "version":  "V0.619",
+    "url":  "https://raw.giteeusercontent.com/xyinmaster/dashboard-ota/raw/main/dashboard-V0.619.tar.gz",
+    "sha256":  "b24a7f856b879ae1f39cf97773dceb6559d852e49ea33a242b4a426d63dafa5b",
+    "size":  128687,
+    "notes":  "修复手机版顶部 BOM 空白与顶栏布局；修复 DMR 网关自定义服务器名称选择串台、预置服务器选中后不生效",
+    "endpoints":  [
+                      "basic",
+                      "calibration",
+                      "configs",
+                      "fw",
+                      "lastheard",
+                      "lhclear",
+                      "live",
+                      "log",
+                      "luci",
+                      "ota",
+                      "page",
+                      "ports",
+                      "services",
+                      "status",
+                      "system",
+                      "tg",
+                      "xlxhosts"
+                  ]
 }
