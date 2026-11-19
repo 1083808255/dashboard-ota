@@ -1,26 +1,8 @@
 {
-    "version":  "V0.614",
-    "url":  "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/dashboard-V0.614.tar.gz",
-    "sha256":  "e9121915c007c42f75063f38e08a60c32a54a4655787e7328fe025e07637b3fe",
-    "size":  127588,
-    "notes":  "静态组设备ID包含ESSID，修复多台设备共用同一热点",
-    "endpoints":  [
-                      "basic",
-                      "calibration",
-                      "configs",
-                      "fw",
-                      "lastheard",
-                      "lhclear",
-                      "live",
-                      "log",
-                      "luci",
-                      "ota",
-                      "page",
-                      "ports",
-                      "services",
-                      "status",
-                      "system",
-                      "tg",
-                      "xlxhosts"
-                  ]
+    "version":  "V0.615",
+    "url":  "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/dashboard-V0.615.tar.gz",
+    "sha256":  "365d78819d35f8144358ad9f80715fbf0bf0072867646444c6f071e3c38be932",
+    "size":  128379,
+    "notes":  "API 配置的 DMR ID 改为下拉选择（46 开头 ID + ESSID，单个自动选中）",
+    "endpoints":  ["basic","calibration","configs","fw","lastheard","lhclear","live","log","luci","ota","page","ports","services","status","system","tg","xlxhosts"]
 }
