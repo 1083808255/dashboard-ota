@@ -1,10 +1,10 @@
 {
-    "version":  2026111701,
-    "versionName":  "2026-11-17-01",
-    "board":  "xiaomi,mi-router-3g",
-    "target":  "ramips/mt7621",
-    "url":  "https://gitee.com/xyinmaster/dashboard-ota/raw/main/fw/openwrt-ramips-mt7621-xiaomi_mi-router-3g-squashfs-sysupgrade.bin",
-    "sha256":  "17a2176be95c41829b1a1d1265a7fb3482800c24da28fa97d83d7bd586072b82",
-    "size":  9964666,
-    "notes":  "R3G 首版整机固件；升级后可在仪表盘再检查一次网页更新"
+  "version": "V0.628",
+  "versionName": "V0.628",
+  "board": "xiaomi,mi-router-3g",
+  "target": "ramips/mt7621",
+  "url": "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/fw/r3g-V0.628-squashfs-sysupgrade.bin",
+  "sha256": "696ff038b3da55551a3a22df3be49c8698998639730f6757687685c1d0a35bb2",
+  "size": 11009146,
+  "notes": "小米路由器 3G 固件 V0.628：实时语音统一使用 mbelib-neo v2.6.11 解码（静态编入 dmrstreamd，不再依赖 md380-emu/qemu）；修复 R3G MIPS16 解码器构建兼容；含实时语音 WebSocket 62040、时隙跟随与切换即时静音、音量提升 30%、实时通联 1 秒轮询、呼号反查及重复记录修复、ID 库精简与每日同步、CH341 轮询 50ms"
 }
