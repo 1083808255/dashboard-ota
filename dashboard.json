@@ -1,9 +1,9 @@
-{
-    "version":  "V0.621",
-    "url":  "https://raw.giteeusercontent.com/xyinmaster/dashboard-ota/raw/main/dashboard-V0.621.tar.gz",
-    "sha256":  "2db9cd7bd95f2b2b2e9fde237505ea9fca3ee89d1b295b462373cce3594a0b91",
-    "size":  133434,
-    "notes":  "菜单密码门：PC/手机统一解锁，跨刷新保持，无操作10分钟自动锁定，菜单末尾注销按钮；新增 auth 端点",
+﻿{
+    "version":  "V0.629",
+    "url":  "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/dashboard-V0.629.tar.gz",
+    "sha256":  "1dd79604d0250584a00ecb7c718d2b335df2a189d29cdda9abff06da54631a0d",
+    "size":  141252,
+    "notes":  "实时语音音质优化：3kHz 以上轻微衰减、AGC 上限收敛、软限幅，改善齿音与底噪",
     "endpoints":  [
                       "auth",
                       "basic",
