@@ -1,8 +1,8 @@
 {
-  "version": "V0.634",
-  "url": "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/dashboard-V0.634.tar.gz",
-  "sha256": "3aa3f651ac5a990278df83942dcfc5ddb1f9fcf2a16e206f85d7e889be4d37ab",
-  "size": 141312,
-  "notes": "电脑版点「菜单」后的密码输入框改为水平居中\n解锁后的顶部菜单继续保持居中显示\n本次仅电脑版顶部布局调整",
+  "version": "V0.635",
+  "url": "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/dashboard-V0.635.tar.gz",
+  "sha256": "ea9986c8ddbce2ca00ff94706e604894e5f8b40f89373381766cd9eb08d222e6",
+  "size": 141441,
+  "notes": "电脑版菜单按钮与密码框作为一组整体居中\n未点开时菜单按钮位于正中，点开后按钮与密码框一起居中\n解锁后的顶部菜单继续保持居中显示",
   "endpoints": ["auth","basic","calibration","configs","fw","lastheard","lhclear","live","log","luci","ota","page","ports","services","status","system","tg","xlxhosts"]
 }
