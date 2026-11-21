@@ -1,10 +1,10 @@
 {
-  "version": "V0.628",
-  "versionName": "V0.628",
+  "version": "V0.629",
+  "versionName": "V0.629",
   "board": "redmi,ax5-jdcloud",
   "target": "qualcommax/ipq60xx",
-  "url": "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/fw/ax5-V0.628-squashfs-sysupgrade.bin",
-  "sha256": "0e884d25d5768a604f38f0d89793a3a5370aed4da40f5d5cfb9ab0876ed75523",
+  "url": "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/fw/ax5-V0.629-squashfs-sysupgrade.bin",
+  "sha256": "ab0f9ac888fc69209067286833b15237ab22754fd54b5bf452450a39fce05db5",
   "size": 33516349,
-  "notes": "红米 AX5 京东云版固件 V0.628：修复升级后 U-Boot A/B 双 rootfs 标志未维护导致切换到空槽无法启动（升级时固定当前启动槽，开机由 bootcount 重写 flag_boot_success / flag_try_sys1_failed / flag_try_sys2_failed 等标志），并增加内核与 rootfs 分区大小校验防止写穿；含 V0.627 实时语音 md380-emu 解码等此前全部更新"
+  "notes": "红米 AX5 京东云版固件 V0.629：修复实时语音反复重连（握手后清除 SO_RCVTIMEO、recv 超时 EAGAIN 不再当作对端关闭、每 15 秒 ping 保活）；仪表盘前端升级为 V0.629（AGC 上限 30、2.9 kHz 高架 -3 dB）"
 }
