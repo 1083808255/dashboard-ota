@@ -1,27 +1,8 @@
-﻿{
-    "version":  "V0.629",
-    "url":  "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/dashboard-V0.629.tar.gz",
-    "sha256":  "1dd79604d0250584a00ecb7c718d2b335df2a189d29cdda9abff06da54631a0d",
-    "size":  141252,
-    "notes":  "实时语音音质优化：3kHz 以上轻微衰减、AGC 上限收敛、软限幅，改善齿音与底噪",
-    "endpoints":  [
-                      "auth",
-                      "basic",
-                      "calibration",
-                      "configs",
-                      "fw",
-                      "lastheard",
-                      "lhclear",
-                      "live",
-                      "log",
-                      "luci",
-                      "ota",
-                      "page",
-                      "ports",
-                      "services",
-                      "status",
-                      "system",
-                      "tg",
-                      "xlxhosts"
-                  ]
+{
+  "version": "V0.629",
+  "url": "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/dashboard-V0.629.tar.gz",
+  "sha256": "1dd79604d0250584a00ecb7c718d2b335df2a189d29cdda9abff06da54631a0d",
+  "size": 141252,
+  "notes": "实时语音音质优化：3kHz 以上轻微衰减、AGC 上限收敛、软限幅，改善齿音与底噪",
+  "endpoints": ["auth","basic","calibration","configs","fw","lastheard","lhclear","live","log","luci","ota","page","ports","services","status","system","tg","xlxhosts"]
 }
