@@ -1,8 +1,8 @@
 {
-  "version": "V0.640",
-  "url": "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/dashboard-V0.640.tar.gz",
-  "sha256": "232da447d748c828ef7a1608cc81a47361cb818f624598e724ea5da247c98df4",
-  "size": 141943,
-  "notes": "「发现新版本」「已是最新版本」标题恢复为正常亮色，不再显示为灰色\n更新内容条目仍保持灰色显示",
+  "version": "V0.641",
+  "url": "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/dashboard-V0.641.tar.gz",
+  "sha256": "19fb535862a45ab1b358392a797434a075fdd2ac9330ccf7b853714601bbe23c",
+  "size": 142120,
+  "notes": "手机版按钮未登录时显示「登录」，登录成功后才变为「菜单」\n手机版登录成功后不再自动展开菜单，需要再点一次「菜单」\n手机版抽屉菜单高度改为随内容自适应，不再铺满整屏",
   "endpoints": ["auth","basic","calibration","configs","fw","lastheard","lhclear","live","log","luci","ota","page","ports","services","status","system","tg","xlxhosts"]
 }
