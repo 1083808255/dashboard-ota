@@ -1,8 +1,8 @@
 {
-  "version": "V0.635",
-  "url": "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/dashboard-V0.635.tar.gz",
-  "sha256": "ea9986c8ddbce2ca00ff94706e604894e5f8b40f89373381766cd9eb08d222e6",
-  "size": 141441,
-  "notes": "电脑版菜单按钮与密码框作为一组整体居中\n未点开时菜单按钮位于正中，点开后按钮与密码框一起居中\n解锁后的顶部菜单继续保持居中显示",
+  "version": "V0.636",
+  "url": "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/dashboard-V0.636.tar.gz",
+  "sha256": "3c77187da13b658b891d2dc57996e4354b32c919d83d53941ae284f1ae72955c",
+  "size": 141678,
+  "notes": "电脑版「菜单」按钮改为「登录」按钮并重新设计外观（胶囊形、绿色渐变描边）\n登录按钮与密码输入框改为紧靠 MMDVM 标识显示\n手机版按钮仍为菜单入口，文案不变",
   "endpoints": ["auth","basic","calibration","configs","fw","lastheard","lhclear","live","log","luci","ota","page","ports","services","status","system","tg","xlxhosts"]
 }
