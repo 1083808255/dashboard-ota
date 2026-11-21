@@ -1,8 +1,8 @@
 {
-  "version": "V0.642",
-  "url": "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/dashboard-V0.642.tar.gz",
-  "sha256": "ede9bb8d3238c3a525464bff4ae5850d932fc18db3c3f06ec559c1501432513c",
-  "size": 142199,
-  "notes": "手机版菜单按钮去掉文字，只保留图标\n未登录时显示锁形图标，登录成功后变为三条杠菜单图标\n手机版抽屉菜单高度保持随内容自适应",
+  "version": "V0.643",
+  "url": "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/dashboard-V0.643.tar.gz",
+  "sha256": "f2302a331f988eaed95f559ca2522ba3aba7f3819968d347bb953af6f448fdb0",
+  "size": 142345,
+  "notes": "顶部菜单鼠标悬停即自动展开下拉内容\n鼠标在菜单名与下拉面板之间移动时保持显示，不再中途消失\n鼠标离开菜单名和面板范围后自动收起",
   "endpoints": ["auth","basic","calibration","configs","fw","lastheard","lhclear","live","log","luci","ota","page","ports","services","status","system","tg","xlxhosts"]
 }
