@@ -1,8 +1,8 @@
 {
-  "version": "V0.652",
-  "url": "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/dashboard-V0.652.tar.gz",
-  "sha256": "4e8dd7f5dd94c2dbdf7cdafad0aabc17be52aa2f6422be416533b73ef694b03b",
-  "size": 146891,
-  "notes": "修复 GPS 串台：日志偶发缺口导致语音头缺失时坐标挂错呼号，改用 Talker Alias 呼号 + 通话结束行真实呼号双重纠正，GPS 精准归属不串台；并含：部分 GPS 不显示（地址解析失败退化为坐标+距离）、网络通话重复 GPS 距离为 0、实时通联去掉位置字样、登录框箭头按钮与空密码提示、实时语音开关仅 7628 显示",
+  "version": "V0.653",
+  "url": "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/dashboard-V0.653.tar.gz",
+  "sha256": "4a2eeb47b8a9f8972d90178ffa3c6b5595c57dd7147508947e06902ca3f7fad3",
+  "size": 146881,
+  "notes": "修复 AX5 DMR 网关版本号串入日志文件名的问题\n顶部 MMDVM Dashboard 下不再显示设备 IP，仅保留 OpenWrt 标识",
   "endpoints": ["auth","basic","calibration","configs","fw","lastheard","lhclear","live","livecfg","log","luci","ota","page","ports","services","status","system","tg","xlxhosts"]
 }
