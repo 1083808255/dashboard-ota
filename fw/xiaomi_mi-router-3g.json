@@ -1,10 +1,10 @@
 {
-  "version": "V0.628",
-  "versionName": "V0.628",
+  "version": "V0.629",
+  "versionName": "V0.629",
   "board": "xiaomi,mi-router-3g",
   "target": "ramips/mt7621",
-  "url": "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/fw/r3g-V0.628-squashfs-sysupgrade.bin",
-  "sha256": "696ff038b3da55551a3a22df3be49c8698998639730f6757687685c1d0a35bb2",
+  "url": "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/fw/r3g-V0.629-squashfs-sysupgrade.bin",
+  "sha256": "3ffe1a506b6235e89e0eb8a046d382c7384eb14f4523ec62a8c1b8a1ec6cbd8e",
   "size": 11009146,
-  "notes": "小米路由器 3G 固件 V0.628：实时语音统一使用 mbelib-neo v2.6.11 解码（静态编入 dmrstreamd，不再依赖 md380-emu/qemu）；修复 R3G MIPS16 解码器构建兼容；含实时语音 WebSocket 62040、时隙跟随与切换即时静音、音量提升 30%、实时通联 1 秒轮询、呼号反查及重复记录修复、ID 库精简与每日同步、CH341 轮询 50ms"
+  "notes": "小米路由器 3G 固件 V0.629：修复实时语音反复重连（握手后清除 SO_RCVTIMEO、recv 超时 EAGAIN 不再当作对端关闭、每 15 秒 ping 保活）；仪表盘前端升级为 V0.629（AGC 上限 30、2.9 kHz 高架 -3 dB）"
 }
