@@ -1,8 +1,8 @@
 {
-  "version": "V0.639",
-  "url": "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/dashboard-V0.639.tar.gz",
-  "sha256": "1b7a0d38ab2f4dbbdfaba0f745eeea47e0b368ca80eae2bc52109298f3d01f43",
-  "size": 141942,
-  "notes": "更新说明区域左移：电脑版 30px、手机版 10px\n更新内容改为灰色字体显示\n更新内容换行时与第一条文字首字对齐",
+  "version": "V0.640",
+  "url": "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/dashboard-V0.640.tar.gz",
+  "sha256": "232da447d748c828ef7a1608cc81a47361cb818f624598e724ea5da247c98df4",
+  "size": 141943,
+  "notes": "「发现新版本」「已是最新版本」标题恢复为正常亮色，不再显示为灰色\n更新内容条目仍保持灰色显示",
   "endpoints": ["auth","basic","calibration","configs","fw","lastheard","lhclear","live","log","luci","ota","page","ports","services","status","system","tg","xlxhosts"]
 }
