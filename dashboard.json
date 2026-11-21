@@ -1,8 +1,8 @@
 {
   "version": "V0.633",
   "url": "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/dashboard-V0.633.tar.gz",
-  "sha256": "c3e9c634328fff8973920487cb8b2f024c8cbebfe573900d3dda3b5f0a0e2735",
-  "size": 141258,
-  "notes": "更新说明整体右移 30px，排版更清晰\n仪表盘更新与整机固件更新的说明都适用\n本次仅界面微调，无功能变化",
+  "sha256": "9d6e6b068d7abb5c7ee32b45c2b11c9ca815cc4e54c13dc3ee9fb7c827865c8a",
+  "size": 141316,
+  "notes": "电脑版更新内容右移 30px 并缩小字号\n手机版更新内容右移 15px 并缩小字号\n仪表盘更新与整机固件更新说明同时生效\n本次仅界面排版调整，无功能变化",
   "endpoints": ["auth","basic","calibration","configs","fw","lastheard","lhclear","live","log","luci","ota","page","ports","services","status","system","tg","xlxhosts"]
 }
