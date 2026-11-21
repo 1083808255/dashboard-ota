@@ -1,8 +1,8 @@
 {
-  "version": "V0.632",
-  "url": "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/dashboard-V0.632.tar.gz",
-  "sha256": "cb533dfa24d7d9b837e6829fbca37e73f13ddc2b109105c46629ed096824020c",
-  "size": 141236,
-  "notes": "更新说明改为逐条编号显示，不再挤成一段\n本面板的固件更新与仪表盘更新说明都适用\n其余为 V0.631 已修复内容的延续",
+  "version": "V0.633",
+  "url": "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/dashboard-V0.633.tar.gz",
+  "sha256": "c3e9c634328fff8973920487cb8b2f024c8cbebfe573900d3dda3b5f0a0e2735",
+  "size": 141258,
+  "notes": "更新说明整体右移 30px，排版更清晰\n仪表盘更新与整机固件更新的说明都适用\n本次仅界面微调，无功能变化",
   "endpoints": ["auth","basic","calibration","configs","fw","lastheard","lhclear","live","log","luci","ota","page","ports","services","status","system","tg","xlxhosts"]
 }
