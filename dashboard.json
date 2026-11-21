@@ -1,8 +1,8 @@
 {
-  "version": "V0.637",
-  "url": "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/dashboard-V0.637.tar.gz",
-  "sha256": "bca75914fe399e6703b35856bb8134cd4718e60cb8fd63aa22719af1af41cd57",
-  "size": 141829,
-  "notes": "更新说明的长行改为缩进对齐文字，不再与 1、2、3 编号对齐\n电脑版更新说明区域整体右移 50px\n手机版更新说明区域整体右移 20px",
+  "version": "V0.638",
+  "url": "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/dashboard-V0.638.tar.gz",
+  "sha256": "1d34e840b0392e4685765abc5095168eea89df66b6c5278a33dd3b330e3b6ec5",
+  "size": 141941,
+  "notes": "注销按钮移到登录按钮的位置（MMDVM 标识右侧），登录按钮尺寸缩小\n配置已保存等提示改为在屏幕中央弹出\n手机版按钮未登录时显示「登录」，登录成功后变为「菜单」\n手机版登录成功后不再自动展开菜单，需再次点击",
   "endpoints": ["auth","basic","calibration","configs","fw","lastheard","lhclear","live","log","luci","ota","page","ports","services","status","system","tg","xlxhosts"]
 }
