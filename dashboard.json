@@ -1,8 +1,8 @@
 {
-  "version": "V0.629",
-  "url": "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/dashboard-V0.629.tar.gz",
-  "sha256": "1dd79604d0250584a00ecb7c718d2b335df2a189d29cdda9abff06da54631a0d",
-  "size": 141252,
-  "notes": "实时语音音质优化：3kHz 以上轻微衰减、AGC 上限收敛、软限幅，改善齿音与底噪",
+  "version": "V0.631",
+  "url": "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/dashboard-V0.631.tar.gz",
+  "sha256": "8880e8c0353e341452eefa725dcdbc0d1eaaf2ea792ed4477ea7353607f17220",
+  "size": 141225,
+  "notes": "电脑版顶部菜单居中；修复热点板（双工板）类型不显示、DMR 网关版本读取错误",
   "endpoints": ["auth","basic","calibration","configs","fw","lastheard","lhclear","live","log","luci","ota","page","ports","services","status","system","tg","xlxhosts"]
 }
