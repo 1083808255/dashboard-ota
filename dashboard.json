@@ -1,8 +1,8 @@
 {
-  "version": "V0.631",
-  "url": "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/dashboard-V0.631.tar.gz",
-  "sha256": "8880e8c0353e341452eefa725dcdbc0d1eaaf2ea792ed4477ea7353607f17220",
-  "size": 141225,
-  "notes": "电脑版顶部菜单居中；修复热点板（双工板）类型不显示、DMR 网关版本读取错误",
+  "version": "V0.632",
+  "url": "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/dashboard-V0.632.tar.gz",
+  "sha256": "cb533dfa24d7d9b837e6829fbca37e73f13ddc2b109105c46629ed096824020c",
+  "size": 141236,
+  "notes": "更新说明改为逐条编号显示，不再挤成一段\n本面板的固件更新与仪表盘更新说明都适用\n其余为 V0.631 已修复内容的延续",
   "endpoints": ["auth","basic","calibration","configs","fw","lastheard","lhclear","live","log","luci","ota","page","ports","services","status","system","tg","xlxhosts"]
 }
