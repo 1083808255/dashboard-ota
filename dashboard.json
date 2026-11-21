@@ -1,8 +1,8 @@
 {
-  "version": "V0.633",
-  "url": "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/dashboard-V0.633.tar.gz",
-  "sha256": "9d6e6b068d7abb5c7ee32b45c2b11c9ca815cc4e54c13dc3ee9fb7c827865c8a",
-  "size": 141316,
-  "notes": "电脑版更新内容右移 30px 并缩小字号\n手机版更新内容右移 15px 并缩小字号\n仪表盘更新与整机固件更新说明同时生效\n本次仅界面排版调整，无功能变化",
+  "version": "V0.634",
+  "url": "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/dashboard-V0.634.tar.gz",
+  "sha256": "3aa3f651ac5a990278df83942dcfc5ddb1f9fcf2a16e206f85d7e889be4d37ab",
+  "size": 141312,
+  "notes": "电脑版点「菜单」后的密码输入框改为水平居中\n解锁后的顶部菜单继续保持居中显示\n本次仅电脑版顶部布局调整",
   "endpoints": ["auth","basic","calibration","configs","fw","lastheard","lhclear","live","log","luci","ota","page","ports","services","status","system","tg","xlxhosts"]
 }
