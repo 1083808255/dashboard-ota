@@ -1,10 +1,10 @@
 {
-  "version": "V0.629",
-  "versionName": "V0.629",
+  "version": "V0.630",
+  "versionName": "V0.630",
   "board": "xiaomi,mi-router-3g",
   "target": "ramips/mt7621",
-  "url": "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/fw/r3g-V0.629-squashfs-sysupgrade.bin",
-  "sha256": "3ffe1a506b6235e89e0eb8a046d382c7384eb14f4523ec62a8c1b8a1ec6cbd8e",
+  "url": "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/fw/r3g-V0.630-squashfs-sysupgrade.bin",
+  "sha256": "f7e1f8dd882505bef61546eb37e988d34aa1145914b31a2dcc704216516d596d",
   "size": 11009146,
-  "notes": "小米路由器 3G 固件 V0.629：修复实时语音反复重连（握手后清除 SO_RCVTIMEO、recv 超时 EAGAIN 不再当作对端关闭、每 15 秒 ping 保活）；仪表盘前端升级为 V0.629（AGC 上限 30、2.9 kHz 高架 -3 dB）"
+  "notes": "小米路由器 3G 固件 V0.630：修复 dmrstreamd 在 MIPS16 下段错误（实时语音服务启动几秒即崩溃、仪表盘反复显示连接中/重试），现已对 dmrstream 整棵树禁用 MIPS16"
 }
