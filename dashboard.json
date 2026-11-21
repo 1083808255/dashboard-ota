@@ -1,8 +1,8 @@
 {
-  "version": "V0.653",
-  "url": "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/dashboard-V0.653.tar.gz",
-  "sha256": "4a2eeb47b8a9f8972d90178ffa3c6b5595c57dd7147508947e06902ca3f7fad3",
-  "size": 146881,
-  "notes": "修复 AX5 DMR 网关版本号串入日志文件名的问题\n顶部 MMDVM Dashboard 下不再显示设备 IP，仅保留 OpenWrt 标识",
+  "version": "V0.654",
+  "url": "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/dashboard-V0.654.tar.gz",
+  "sha256": "b72a7010a31ec6c47b6ca09f09c4a57d394c923609402c3e1fe484787edead14",
+  "size": 147612,
+  "notes": "通联日志中同一呼号最新 GPS 最多保留 5 次通联，新坐标自动替换并重新计数\nGPS 坐标超过 30 分钟未更新即隐藏，与剩余通联次数无关\n支持通话入库后迟到 GPS 的同记录回填",
   "endpoints": ["auth","basic","calibration","configs","fw","lastheard","lhclear","live","livecfg","log","luci","ota","page","ports","services","status","system","tg","xlxhosts"]
 }
