@@ -1,8 +1,8 @@
 {
-  "version": "V0.636",
-  "url": "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/dashboard-V0.636.tar.gz",
-  "sha256": "3c77187da13b658b891d2dc57996e4354b32c919d83d53941ae284f1ae72955c",
-  "size": 141678,
-  "notes": "电脑版「菜单」按钮改为「登录」按钮并重新设计外观（胶囊形、绿色渐变描边）\n登录按钮与密码输入框改为紧靠 MMDVM 标识显示\n手机版按钮仍为菜单入口，文案不变",
+  "version": "V0.637",
+  "url": "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/dashboard-V0.637.tar.gz",
+  "sha256": "bca75914fe399e6703b35856bb8134cd4718e60cb8fd63aa22719af1af41cd57",
+  "size": 141829,
+  "notes": "更新说明的长行改为缩进对齐文字，不再与 1、2、3 编号对齐\n电脑版更新说明区域整体右移 50px\n手机版更新说明区域整体右移 20px",
   "endpoints": ["auth","basic","calibration","configs","fw","lastheard","lhclear","live","log","luci","ota","page","ports","services","status","system","tg","xlxhosts"]
 }
