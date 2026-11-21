@@ -6,5 +6,5 @@
   "url": "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/fw/r3g-V0.630-squashfs-sysupgrade.bin",
   "sha256": "f7e1f8dd882505bef61546eb37e988d34aa1145914b31a2dcc704216516d596d",
   "size": 11009146,
-  "notes": "小米路由器 3G 固件 V0.630：修复 dmrstreamd 在 MIPS16 下段错误（实时语音服务启动几秒即崩溃、仪表盘反复显示连接中/重试），现已对 dmrstream 整棵树禁用 MIPS16"
+  "notes": "修复 dmrstreamd 在 MIPS16 平台上的段错误\n实时语音服务启动几秒即崩溃的问题已解决\n仪表盘不再反复显示「连接中/正在重试」\n固件版本与仪表盘版本对齐为 V0.630"
 }

@@ -6,5 +6,5 @@
   "url": "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/fw/ax5-V0.629-squashfs-sysupgrade.bin",
   "sha256": "ab0f9ac888fc69209067286833b15237ab22754fd54b5bf452450a39fce05db5",
   "size": 33516349,
-  "notes": "红米 AX5 京东云版固件 V0.629：修复实时语音反复重连（握手后清除 SO_RCVTIMEO、recv 超时 EAGAIN 不再当作对端关闭、每 15 秒 ping 保活）；仪表盘前端升级为 V0.629（AGC 上限 30、2.9 kHz 高架 -3 dB）"
+  "notes": "修复实时语音断线后反复重连\n握手成功后清除 SO_RCVTIMEO，超时不再被当作对端关闭\n每 15 秒发送 WebSocket ping 保活\n仪表盘前端同步升级"
 }
