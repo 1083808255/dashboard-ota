@@ -1,9 +1,9 @@
 {
-  "version": "2026111701",
-  "versionName": "2026-11-17-01",
+  "version": "V0.660",
+  "versionName": "V0.660",
   "target": "x86/64",
   "url": "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/fw/openwrt-x86-64-generic-squashfs-combined.img.gz",
-  "sha256": "148a264e32014b76cb61f6d130b48fa7842cb37fab809a8351c0abb031793287",
-  "size": 15526158,
-  "notes": "x86/64 首版整机固件（BIOS 启动，保留配置）"
+  "sha256": "5f617fc8dd7fc1c071bdcff2eb3a7ba46d5192eef63c8d8b45f2511c6c921239",
+  "size": 15808141,
+  "notes": "x86/64 整机固件 V0.660：仪表盘实时语音开关接口修复 + OTA 保留配置"
 }
