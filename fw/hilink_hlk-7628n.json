@@ -1,10 +1,10 @@
 {
-  "version": "V0.658",
-  "versionName": "V0.658",
+  "version": "V0.659",
+  "versionName": "V0.659",
   "board": "hilink,hlk-7628n",
   "target": "ramips/mt76x8",
-  "url": "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/fw/7628-V0.658-squashfs-sysupgrade.bin",
-  "sha256": "3c3bf27bc916accdc85ff49670acafd7188ee22a5eb3d897efff339fa943dadf",
+  "url": "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/fw/7628-V0.659-squashfs-sysupgrade.bin",
+  "sha256": "4d5ef79efa064a455fff1a63f780de9dbf2cd27ef4a7a4f6331d72e1b7b54cab",
   "size": 10289957,
-  "notes": "修复 QSO 页面卡顿冻结（API 请求雪崩）\n改写规则页显示已保存的规则\n双网络启用时应用 network2 默认参数\n按 network2 状态切换 network1 改写模式\n重复改写行显示为编号规则\n实时语音仅在启用时启动\n不再把 ttyS 端口当作自定义 UART"
+  "notes": "修复整机 OTA 升级后配置丢失：BM API Key、仪表盘设置、实时语音开关、MMDVM/DMRGateway 自定义均保留\n修复部分设备升级后看不到「工具 → 实时语音」开关\n升级到本版后不再需要重新填写配置"
 }
