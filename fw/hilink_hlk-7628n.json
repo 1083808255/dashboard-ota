@@ -1,10 +1,10 @@
 {
-  "version": "V0.630",
-  "versionName": "V0.630",
+  "version": "V0.658",
+  "versionName": "V0.658",
   "board": "hilink,hlk-7628n",
   "target": "ramips/mt76x8",
-  "url": "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/fw/7628-V0.630-squashfs-sysupgrade.bin",
-  "sha256": "b69734974e470d46d6516c4e19bf3a7f866480f092f12a41ad649666fde5387c",
+  "url": "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/fw/7628-V0.658-squashfs-sysupgrade.bin",
+  "sha256": "3c3bf27bc916accdc85ff49670acafd7188ee22a5eb3d897efff339fa943dadf",
   "size": 10289957,
-  "notes": "修复 dmrstreamd 在 MIPS16 平台上的段错误\n实时语音服务启动几秒即崩溃的问题已解决\n仪表盘不再反复显示「连接中/正在重试」\n固件版本与仪表盘版本对齐为 V0.630"
+  "notes": "修复 QSO 页面卡顿冻结（API 请求雪崩）\n改写规则页显示已保存的规则\n双网络启用时应用 network2 默认参数\n按 network2 状态切换 network1 改写模式\n重复改写行显示为编号规则\n实时语音仅在启用时启动\n不再把 ttyS 端口当作自定义 UART"
 }
