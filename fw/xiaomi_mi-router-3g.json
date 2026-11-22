@@ -1,10 +1,10 @@
 {
-  "version": "V0.630",
-  "versionName": "V0.630",
+  "version": "V0.659",
+  "versionName": "V0.659",
   "board": "xiaomi,mi-router-3g",
   "target": "ramips/mt7621",
-  "url": "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/fw/r3g-V0.630-squashfs-sysupgrade.bin",
-  "sha256": "f7e1f8dd882505bef61546eb37e988d34aa1145914b31a2dcc704216516d596d",
-  "size": 11009146,
-  "notes": "修复 dmrstreamd 在 MIPS16 平台上的段错误\n实时语音服务启动几秒即崩溃的问题已解决\n仪表盘不再反复显示「连接中/正在重试」\n固件版本与仪表盘版本对齐为 V0.630"
+  "url": "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/fw/r3g-V0.659-squashfs-sysupgrade.bin",
+  "sha256": "dae94c083e4cd2b2350331346f5d1b7755f893881268c8571f504270752eed86",
+  "size": 11019386,
+  "notes": "整机固件 V0.659：OTA 升级保留用户配置（仪表盘设置、实时语音开关、MMDVM/DMRGateway 自定义）\n修复实时语音开关页面入口（/api/livecfg 接口注册）"
 }
