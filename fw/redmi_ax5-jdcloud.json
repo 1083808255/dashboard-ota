@@ -1,10 +1,10 @@
 {
-  "version": "V0.629",
-  "versionName": "V0.629",
+  "version": "V0.660",
+  "versionName": "V0.660",
   "board": "redmi,ax5-jdcloud",
   "target": "qualcommax/ipq60xx",
-  "url": "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/fw/ax5-V0.629-squashfs-sysupgrade.bin",
-  "sha256": "ab0f9ac888fc69209067286833b15237ab22754fd54b5bf452450a39fce05db5",
-  "size": 33516349,
-  "notes": "修复实时语音断线后反复重连\n握手成功后清除 SO_RCVTIMEO，超时不再被当作对端关闭\n每 15 秒发送 WebSocket ping 保活\n仪表盘前端同步升级"
+  "url": "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/fw/ax5-V0.660-squashfs-sysupgrade.bin",
+  "sha256": "e5efe13909a527e19b7387542da49849849d4a78e827f01c1738ab68d38b68a8",
+  "size": 33997629,
+  "notes": "AX5 京东云版整机固件 V0.660\n修复仪表盘实时语音开关接口缺失（livecfg 未注册）\n整机 OTA 保留仪表盘配置与 BM Key\n统一单源仪表盘"
 }
