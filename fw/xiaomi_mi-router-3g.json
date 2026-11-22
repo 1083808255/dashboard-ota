@@ -1,10 +1,10 @@
 {
-  "version": "V0.659",
-  "versionName": "V0.659",
+  "version": "V0.660",
+  "versionName": "V0.660",
   "board": "xiaomi,mi-router-3g",
   "target": "ramips/mt7621",
-  "url": "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/fw/r3g-V0.659-squashfs-sysupgrade.bin",
-  "sha256": "dae94c083e4cd2b2350331346f5d1b7755f893881268c8571f504270752eed86",
+  "url": "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/fw/r3g-V0.660-squashfs-sysupgrade.bin",
+  "sha256": "912cb461a79c3b36b67c7ac84f3de9d7cf39e962befa1edcbd7dc1eb9f77dacb",
   "size": 11019386,
-  "notes": "整机固件 V0.659：OTA 升级保留用户配置（仪表盘设置、实时语音开关、MMDVM/DMRGateway 自定义）\n修复实时语音开关页面入口（/api/livecfg 接口注册）"
+  "notes": "修复实时语音开关页面不显示（/api/livecfg 接口未注册）\n整机 OTA 升级保留用户配置：仪表盘设置、实时语音开关、MMDVM/DMRGateway 自定义"
 }

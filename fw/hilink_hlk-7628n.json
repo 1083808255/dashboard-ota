@@ -1,10 +1,10 @@
 {
-  "version": "V0.659",
-  "versionName": "V0.659",
+  "version": "V0.660",
+  "versionName": "V0.660",
   "board": "hilink,hlk-7628n",
   "target": "ramips/mt76x8",
-  "url": "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/fw/7628-V0.659-squashfs-sysupgrade.bin",
-  "sha256": "45e48d535395b52fef6f8c9f46def278fb37f5b939bff610ed21a4bea8819dc0",
+  "url": "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/fw/7628-V0.660-squashfs-sysupgrade.bin",
+  "sha256": "09092196a0d2d3a4a7f27c54e4d0b2ddedbc7ce70a4b51fd0473adce9befa08c",
   "size": 10289957,
   "notes": "修复实时语音开关页面不显示（/api/livecfg 接口未注册）\n整机 OTA 升级保留用户配置：BM API Key、仪表盘设置、实时语音开关、MMDVM/DMRGateway 自定义"
 }
