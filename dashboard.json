@@ -1,8 +1,8 @@
 {
-  "version": "V0.654",
-  "url": "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/dashboard-V0.654.tar.gz",
-  "sha256": "b72a7010a31ec6c47b6ca09f09c4a57d394c923609402c3e1fe484787edead14",
-  "size": 147612,
-  "notes": "通联日志中同一呼号最新 GPS 最多保留 5 次通联，新坐标自动替换并重新计数\nGPS 坐标超过 30 分钟未更新即隐藏，与剩余通联次数无关\n支持通话入库后迟到 GPS 的同记录回填",
+  "version": "V0.659",
+  "url": "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/dashboard-V0.659.tar.gz",
+  "sha256": "62088f3b1875895c1874c23142713969c420904ddf1381f483e845ef148ccf54",
+  "size": 151849,
+  "notes": "1. MMDVM 标识下方改为显示设备型号（读取 /api/system 的 model）\n2. 内置单源仪表盘：修复实时语音开关接口 livecfg，统一各机型仪表盘",
   "endpoints": ["auth","basic","calibration","configs","fw","lastheard","lhclear","live","livecfg","log","luci","ota","page","ports","services","status","system","tg","xlxhosts"]
 }
