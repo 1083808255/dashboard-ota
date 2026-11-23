@@ -1,8 +1,8 @@
 {
-  "version": "V0.660",
-  "url": "https://gitee.com/xyinmaster/dashboard-ota/raw/main/dashboard-V0.660.tar.gz",
-  "sha256": "9caf8d6a484100cba463549811aacd490a33db86881b6944332c9d690a10cb88",
-  "size": 151899,
-  "notes": "1. 通话 GPS 缓存：手机版下拉宽度加 80px、标题不换行；2. 同步单源 app.html 到打包源",
+  "version": "V0.661",
+  "url": "https://gitee.com/xyinmaster/dashboard-ota/raw/main/dashboard-V0.661.tar.gz",
+  "sha256": "140840dede0972fccf555284e92ccea0942cb5e4066e69e29115c5dd86b5b25a",
+  "size": 152465,
+  "notes": "静态系统信息缓存：标识型号首取后存入 localStorage，新增 /api/system?static=1 轻量接口（零高频 shell），去掉 60 秒轮询，节省设备资源",
   "endpoints": ["auth","basic","calibration","configs","fw","lastheard","lhclear","live","livecfg","log","luci","ota","page","ports","services","status","system","tg","xlxhosts"]
 }
