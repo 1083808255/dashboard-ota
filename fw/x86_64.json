@@ -1,9 +1,9 @@
 {
-  "version": "V0.660",
-  "versionName": "V0.660",
-  "target": "x86/64",
-  "url": "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/fw/openwrt-x86-64-generic-squashfs-combined.img.gz",
-  "sha256": "5f617fc8dd7fc1c071bdcff2eb3a7ba46d5192eef63c8d8b45f2511c6c921239",
-  "size": 15808141,
-  "notes": "x86/64 整机固件 V0.660：仪表盘实时语音开关接口修复 + OTA 保留配置"
+    "size":  16414010,
+    "version":  "V0.660",
+    "versionName":  "V0.660",
+    "sha256":  "e6e6954eac620324ab67a8bd22125c0068ae6d1aa83edf804e63ea0b2a309965",
+    "notes":  "x86/64 鏁存満鍥轰欢 V0.660 淇鐗堬細鍐呯疆 dmrstream 瀹炴椂璇煶 + V0.661 浠〃鐩橈紙杩愯鏃?api 闈欐€佺紦瀛橈級",
+    "target":  "x86/64",
+    "url":  "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/fw/openwrt-x86-64-generic-squashfs-combined.img.gz"
 }
