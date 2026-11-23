@@ -1,8 +1,8 @@
 {
-  "version": "V0.659",
-  "url": "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/dashboard-V0.659.tar.gz",
-  "sha256": "62088f3b1875895c1874c23142713969c420904ddf1381f483e845ef148ccf54",
-  "size": 151849,
-  "notes": "1. MMDVM 标识下方改为显示设备型号（读取 /api/system 的 model）\n2. 内置单源仪表盘：修复实时语音开关接口 livecfg，统一各机型仪表盘",
+  "version": "V0.660",
+  "url": "https://gitee.com/xyinmaster/dashboard-ota/raw/main/dashboard-V0.660.tar.gz",
+  "sha256": "9caf8d6a484100cba463549811aacd490a33db86881b6944332c9d690a10cb88",
+  "size": 151899,
+  "notes": "1. 通话 GPS 缓存：手机版下拉宽度加 80px、标题不换行；2. 同步单源 app.html 到打包源",
   "endpoints": ["auth","basic","calibration","configs","fw","lastheard","lhclear","live","livecfg","log","luci","ota","page","ports","services","status","system","tg","xlxhosts"]
 }
