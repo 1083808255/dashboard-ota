@@ -1,8 +1,8 @@
 {
-  "version": "V0.661",
-  "url": "https://gitee.com/xyinmaster/dashboard-ota/raw/main/dashboard-V0.661.tar.gz",
-  "sha256": "140840dede0972fccf555284e92ccea0942cb5e4066e69e29115c5dd86b5b25a",
-  "size": 152465,
-  "notes": "静态系统信息缓存：标识型号首取后存入 localStorage，新增 /api/system?static=1 轻量接口（零高频 shell），去掉 60 秒轮询，节省设备资源",
-  "endpoints": ["auth","basic","calibration","configs","fw","lastheard","lhclear","live","livecfg","log","luci","ota","page","ports","services","status","system","tg","xlxhosts"]
+  "version": "V0.662",
+  "url": "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/dashboard-V0.662.tar.gz",
+  "sha256": "6e795a772a05d953ac591d7bad98d15fccf2f47cc1e040041e5b081b9e92371b",
+  "size": 171529,
+  "notes": "1. 修复 LAN 客户端无法上网（关闭 fullcone，恢复 masquerade）；2. 上行优先级改为 有线>无线>4G（metric 10/20/30），插网线走有线；3. LAN 卡片去掉重复的配置地址行；4. 手机版无线热点频宽选择框宽度减半；5. 修复隐藏的 toast 遮罩拦截点击，导致无法切换频段和点击网络配置按钮",
+  "endpoints": ["auth","basic","calibration","configs","fw","lastheard","lhclear","live","livecfg","log","luci","ota","page","ports","services","status","system","tg","wifi","xlxhosts"]
 }
