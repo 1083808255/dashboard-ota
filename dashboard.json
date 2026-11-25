@@ -1,8 +1,8 @@
 {
-  "version": "V0.662",
-  "url": "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/dashboard-V0.662.tar.gz",
-  "sha256": "6e795a772a05d953ac591d7bad98d15fccf2f47cc1e040041e5b081b9e92371b",
-  "size": 171529,
-  "notes": "1. 修复 LAN 客户端无法上网（关闭 fullcone，恢复 masquerade）；2. 上行优先级改为 有线>无线>4G（metric 10/20/30），插网线走有线；3. LAN 卡片去掉重复的配置地址行；4. 手机版无线热点频宽选择框宽度减半；5. 修复隐藏的 toast 遮罩拦截点击，导致无法切换频段和点击网络配置按钮",
+  "version": "V0.663",
+  "url": "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/dashboard-V0.663.tar.gz",
+  "sha256": "3b5707b51819eaeb1c8e1ea5fcb8c70e3388641307f032ff31b5716f9738ae87",
+  "size": 177329,
+  "notes": "1. 新增浅色主题：系统信息页「外观」卡片可切换跟随系统/浅色/深色，选择持久保存，图表即时重绘；2. WiFi 连接列表表头不换行，未扫描/正在扫描提示居中显示，未扫描前不自动扫描；3. 无 5G 射频的设备不再显示任何 5G 相关选项",
   "endpoints": ["auth","basic","calibration","configs","fw","lastheard","lhclear","live","livecfg","log","luci","ota","page","ports","services","status","system","tg","wifi","xlxhosts"]
 }
