@@ -1,8 +1,8 @@
 {
   "version": "V0.663",
   "url": "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/dashboard-V0.663.tar.gz",
-  "sha256": "3b5707b51819eaeb1c8e1ea5fcb8c70e3388641307f032ff31b5716f9738ae87",
-  "size": 177329,
-  "notes": "1. 新增浅色主题：系统信息页「外观」卡片可切换跟随系统/浅色/深色，选择持久保存，图表即时重绘；2. WiFi 连接列表表头不换行，未扫描/正在扫描提示居中显示，未扫描前不自动扫描；3. 无 5G 射频的设备不再显示任何 5G 相关选项",
+  "sha256": "3f91cd6697deec8b54051c725c1d3744f79ebd7122e39a423d1d01cad371a457",
+  "size": 177636,
+  "notes": "1. 新增浅色主题：系统信息页「外观」卡片可切换跟随系统/浅色/深色，选择持久保存，图表即时重绘；2. WiFi 连接列表表头不换行，未扫描/正在扫描提示居中显示，未扫描前不自动扫描；3. 无 5G 射频的设备不再显示任何 5G 相关选项；4. 修复 5G 热点关闭时扫描不到 5G 网络",
   "endpoints": ["auth","basic","calibration","configs","fw","lastheard","lhclear","live","livecfg","log","luci","ota","page","ports","services","status","system","tg","wifi","xlxhosts"]
 }
