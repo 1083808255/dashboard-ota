@@ -1,0 +1,32 @@
+{
+    "version":  "V0.669",
+    "sha256":  "610f56437af096a012411b46718b28aa01227015bba6eeebec86a525d2e72954",
+    "notes":  "仪表盘改为机型专用固件：网络配置、实时语音等菜单按机型在编译期内置，不再依赖联网探测；版本号离线也显示正确；OTA 按机型选择清单",
+    "endpoints":  {
+                      "value":  [
+                                    "auth",
+                                    "basic",
+                                    "calibration",
+                                    "configs",
+                                    "fw",
+                                    "lastheard",
+                                    "lhclear",
+                                    "live",
+                                    "livecfg",
+                                    "log",
+                                    "luci",
+                                    "ota",
+                                    "page",
+                                    "ports",
+                                    "services",
+                                    "status",
+                                    "system",
+                                    "tg",
+                                    "wifi",
+                                    "xlxhosts"
+                                ],
+                      "Count":  20
+                  },
+    "url":  "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/dashboard-V0.669-hlk7628.tar.gz",
+    "size":  192166
+}
