@@ -1,8 +1,8 @@
 {
-  "version": "V0.664",
-  "url": "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/dashboard-V0.664.tar.gz",
-  "sha256": "e004b9b9d51d9fdcd64faadde0e74458c203c2b6fa87beb149f30ff2c77b122a",
-  "size": 178097,
-  "notes": "1. 顶栏时间下方新增主题快捷切换按钮，点击即深浅色互换；2. 未手动选过主题的设备默认使用深色（已手动选择的不受影响）",
+  "version": "V0.665",
+  "url": "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/dashboard-V0.665.tar.gz",
+  "sha256": "6210dbaeeda71d145c527793426511026891c1aba9aa18b211aee57e821ce9f1",
+  "size": 178066,
+  "notes": "1. 去除加载跳板页的文字提示，打开即静默加载；2. 修复 VERSION 文件编码异常导致更新检测版本比较不正确的问题",
   "endpoints": ["auth","basic","calibration","configs","fw","lastheard","lhclear","live","livecfg","log","luci","ota","page","ports","services","status","system","tg","wifi","xlxhosts"]
 }
