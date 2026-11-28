@@ -1,10 +1,10 @@
 {
-  "version": "V0.660",
-  "versionName": "V0.660",
-  "board": "hilink,hlk-7628n",
-  "target": "ramips/mt76x8",
-  "url": "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/fw/7628-V0.660-squashfs-sysupgrade.bin",
-  "sha256": "09092196a0d2d3a4a7f27c54e4d0b2ddedbc7ce70a4b51fd0473adce9befa08c",
-  "size": 10289957,
-  "notes": "修复实时语音开关页面不显示（/api/livecfg 接口未注册）\n整机 OTA 升级保留用户配置：BM API Key、仪表盘设置、实时语音开关、MMDVM/DMRGateway 自定义"
+    "size":  10355493,
+    "version":  "V0.664",
+    "url":  "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/fw/7628-V0.664-squashfs-sysupgrade.bin",
+    "board":  "hilink,hlk-7628n",
+    "target":  "ramips/mt76x8",
+    "notes":  "仪表盘 V0.672：通联页性能优化。重启后首次打开约 9.5 秒降至约 1.1 秒；通联列表刷新 1.1-2 秒降至 0.14-0.15 秒；/api/live 约 1.0 秒降至 0.4-0.5 秒。MMDVM.ini 为上游默认值。",
+    "versionName":  "V0.664",
+    "sha256":  "62f1ef38c926d782d956064ddaaf03f62c1af9923ab3355a2dde2894a181c629"
 }
