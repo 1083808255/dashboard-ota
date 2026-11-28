@@ -1,32 +1,8 @@
 {
-    "version":  "V0.669",
-    "sha256":  "610f56437af096a012411b46718b28aa01227015bba6eeebec86a525d2e72954",
-    "notes":  "仪表盘改为机型专用固件：网络配置、实时语音等菜单按机型在编译期内置，不再依赖联网探测；版本号离线也显示正确；OTA 按机型选择清单",
-    "endpoints":  {
-                      "value":  [
-                                    "auth",
-                                    "basic",
-                                    "calibration",
-                                    "configs",
-                                    "fw",
-                                    "lastheard",
-                                    "lhclear",
-                                    "live",
-                                    "livecfg",
-                                    "log",
-                                    "luci",
-                                    "ota",
-                                    "page",
-                                    "ports",
-                                    "services",
-                                    "status",
-                                    "system",
-                                    "tg",
-                                    "wifi",
-                                    "xlxhosts"
-                                ],
-                      "Count":  20
-                  },
-    "url":  "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/dashboard-V0.669-hlk7628.tar.gz",
-    "size":  192166
+  "version": "V0.676",
+  "url": "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/dashboard-hlk7628-V0.676.tar.gz",
+  "sha256": "85a7ec1a7d08d8b1eb774969d14f0384051949ca9cc2c59639860a4becfe11ee",
+  "size": 198266,
+  "notes": "仪表盘 V0.676：整份 ini 写入前校验必需段与必需键，残缺配置（如 HD44780 缺 Rows/Columns/Pins）拒绝写入并返回中文提示，避免 MMDVMHost 启动崩溃",
+  "endpoints": ["auth","basic","calibration","configs","fw","lastheard","lhclear","live","livecfg","log","luci","ota","page","ports","services","status","system","tg","wifi","xlxhosts"]
 }
