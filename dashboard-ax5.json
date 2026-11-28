@@ -1,32 +1,8 @@
 {
-    "version":  "V0.669",
-    "sha256":  "dcaeaf340a1c5a33f3bdbfd68127f0d2186567c5ffbfebd334c3bce322ef960a",
-    "notes":  "仪表盘改为机型专用固件：网络配置、实时语音等菜单按机型在编译期内置，不再依赖联网探测；版本号离线也显示正确；OTA 按机型选择清单",
-    "endpoints":  {
-                      "value":  [
-                                    "auth",
-                                    "basic",
-                                    "calibration",
-                                    "configs",
-                                    "fw",
-                                    "lastheard",
-                                    "lhclear",
-                                    "live",
-                                    "livecfg",
-                                    "log",
-                                    "luci",
-                                    "ota",
-                                    "page",
-                                    "ports",
-                                    "services",
-                                    "status",
-                                    "system",
-                                    "tg",
-                                    "wifi",
-                                    "xlxhosts"
-                                ],
-                      "Count":  20
-                  },
-    "url":  "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/dashboard-V0.669-ax5.tar.gz",
-    "size":  192170
+  "version": "V0.676",
+  "url": "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/dashboard-ax5-V0.676.tar.gz",
+  "sha256": "621d92a7a5ebb30ea797f25885e449b793312faa0359b090305e7514f406fa87",
+  "size": 193249,
+  "notes": "仪表盘 V0.676：整份 ini 写入前校验必需段与必需键，残缺配置（如 HD44780 缺 Rows/Columns/Pins）拒绝写入并返回中文提示，避免 MMDVMHost 启动崩溃",
+  "endpoints": ["auth","basic","calibration","configs","fw","lastheard","lhclear","live","log","luci","ota","page","ports","services","status","system","tg","wifi","xlxhosts"]
 }
