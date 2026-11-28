@@ -1,10 +1,10 @@
 {
     "size":  10355493,
-    "version":  "V0.667",
-    "url":  "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/fw/7628-V0.667-squashfs-sysupgrade.bin",
+    "version":  "V0.668",
+    "url":  "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/fw/7628-V0.668-squashfs-sysupgrade.bin",
     "board":  "hilink,hlk-7628n",
     "target":  "ramips/mt76x8",
-    "notes":  "仪表盘 V0.674：会话改为滑动续期（使用中自动续签，长时间停留后保存不再被判失效）；修复首次保存配置偶发 401 被退出登录；设置页新增「仪表盘密码」修改入口；移除登录框中的默认密码提示。内置仪表盘 V0.674。",
-    "versionName":  "V0.667",
-    "sha256":  "d94ea0990a2688af0d8e6cdded280e7def5df6129339c14122f807145654ba59"
+    "notes":  "仪表盘 V0.676：整份 ini 写入前校验必需段与必需键，残缺配置（如 [HD44780] 缺 Rows/Columns/Pins）拒绝写入并返回中文提示，避免 MMDVMHost 启动即崩溃；MMDVM.ini 与 DMRGateway.ini 均覆盖。内置仪表盘 V0.676。",
+    "versionName":  "V0.668",
+    "sha256":  "e6e6104ac0bf9fc680b66ef1b21925dffa0e9ac8890342f59d8e2e71cfd15b2d"
 }
