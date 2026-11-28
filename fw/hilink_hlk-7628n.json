@@ -1,10 +1,10 @@
 {
     "size":  10355493,
-    "version":  "V0.664",
-    "url":  "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/fw/7628-V0.664-squashfs-sysupgrade.bin",
+    "version":  "V0.665",
+    "url":  "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/fw/7628-V0.665-squashfs-sysupgrade.bin",
     "board":  "hilink,hlk-7628n",
     "target":  "ramips/mt76x8",
-    "notes":  "仪表盘 V0.672：通联页性能优化。重启后首次打开约 9.5 秒降至约 1.1 秒；通联列表刷新 1.1-2 秒降至 0.14-0.15 秒；/api/live 约 1.0 秒降至 0.4-0.5 秒。MMDVM.ini 为上游默认值。",
-    "versionName":  "V0.664",
-    "sha256":  "62f1ef38c926d782d956064ddaaf03f62c1af9923ab3355a2dde2894a181c629"
+    "notes":  "修复整机 OTA 后开机慢：升级时保留呼号库（dashboard_ids.cache/DMRIds.lite/bg4esi.csv/radiowo_user.csv），三个同步脚本错峰启动（20/80/90 秒）并降为 nice 19。内置仪表盘 V0.672。",
+    "versionName":  "V0.665",
+    "sha256":  "88eaf6c90dc5b39fc8541bc3f3d1640571f48b752f2269004677a792c33153b4"
 }
