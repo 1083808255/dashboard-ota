@@ -1,0 +1,8 @@
+{
+  "version": "V0.676",
+  "url": "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/dashboard-r3g-V0.676.tar.gz",
+  "sha256": "bb8d7f1e20f8c342e01f04d1cbbc5f3e9d1926c893929b53b35ec24fc9ec1157",
+  "size": 166249,
+  "notes": "仪表盘 V0.676：整份 ini 写入前校验必需段与必需键，残缺配置（如 HD44780 缺 Rows/Columns/Pins）拒绝写入并返回中文提示，避免 MMDVMHost 启动崩溃",
+  "endpoints": ["auth","basic","calibration","configs","fw","lastheard","lhclear","live","log","luci","ota","page","ports","services","status","system","tg","xlxhosts"]
+}
