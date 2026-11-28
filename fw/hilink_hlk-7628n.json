@@ -1,10 +1,10 @@
 {
     "size":  10355493,
-    "version":  "V0.665",
-    "url":  "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/fw/7628-V0.665-squashfs-sysupgrade.bin",
+    "version":  "V0.666",
+    "url":  "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/fw/7628-V0.666-squashfs-sysupgrade.bin",
     "board":  "hilink,hlk-7628n",
     "target":  "ramips/mt76x8",
-    "notes":  "修复整机 OTA 后开机慢：升级时保留呼号库（dashboard_ids.cache/DMRIds.lite/bg4esi.csv/radiowo_user.csv），三个同步脚本错峰启动（20/80/90 秒）并降为 nice 19。内置仪表盘 V0.672。",
-    "versionName":  "V0.665",
-    "sha256":  "88eaf6c90dc5b39fc8541bc3f3d1640571f48b752f2269004677a792c33153b4"
+    "notes":  "密码体系拆分：仪表盘菜单密码改为独立密码（出厂默认 password，保存在 /etc/mmdvm/dashboard-auth.json，不再与 LuCI/root 共用）；LuCI/SSH 的 root 出厂默认密码为 passw0rd；修复 WiFi 连接弹窗内密码“小眼睛”点击无反应；清除仪表盘预览中的个人信息。内置仪表盘 V0.673。",
+    "versionName":  "V0.666",
+    "sha256":  "4df521695e241959bebff811d32c2be382925faeb3431a766d4b6b82f0930965"
 }
