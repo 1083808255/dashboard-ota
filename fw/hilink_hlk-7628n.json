@@ -1,10 +1,10 @@
 {
     "size":  10355493,
-    "version":  "V0.666",
-    "url":  "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/fw/7628-V0.666-squashfs-sysupgrade.bin",
+    "version":  "V0.667",
+    "url":  "https://ghproxy.net/https://raw.githubusercontent.com/1083808255/dashboard-ota/main/fw/7628-V0.667-squashfs-sysupgrade.bin",
     "board":  "hilink,hlk-7628n",
     "target":  "ramips/mt76x8",
-    "notes":  "密码体系拆分：仪表盘菜单密码改为独立密码（出厂默认 password，保存在 /etc/mmdvm/dashboard-auth.json，不再与 LuCI/root 共用）；LuCI/SSH 的 root 出厂默认密码为 passw0rd；修复 WiFi 连接弹窗内密码“小眼睛”点击无反应；清除仪表盘预览中的个人信息。内置仪表盘 V0.673。",
-    "versionName":  "V0.666",
-    "sha256":  "4df521695e241959bebff811d32c2be382925faeb3431a766d4b6b82f0930965"
+    "notes":  "仪表盘 V0.674：会话改为滑动续期（使用中自动续签，长时间停留后保存不再被判失效）；修复首次保存配置偶发 401 被退出登录；设置页新增「仪表盘密码」修改入口；移除登录框中的默认密码提示。内置仪表盘 V0.674。",
+    "versionName":  "V0.667",
+    "sha256":  "d94ea0990a2688af0d8e6cdded280e7def5df6129339c14122f807145654ba59"
 }
